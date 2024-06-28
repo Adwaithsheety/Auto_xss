@@ -47,10 +47,6 @@ Options
     -d <domain>: Specify the target domain for XSS scanning.
     -dL domains.txt: Specify the domain list for Scanning.
 
-Examples
-
-bash
-
 # Basic usage
 ./auto_xss.sh -d example.com
 ./auto_Xss.sh -dL domains.txt
