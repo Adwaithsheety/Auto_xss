@@ -68,8 +68,8 @@ construct_mode(){
 
 usage(){
     printf "Usage:\n\n"
-    printf "./recon_script.sh -u <target.com>\n"
-    printf "./recon_script.sh -dL <domains.txt>\n"
+    printf "./auto_xss.sh -u <target.com>\n"
+    printf "./auto_xss.sh -dL <domains.txt>\n"
     exit 1
 }
 
