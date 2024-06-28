@@ -30,7 +30,7 @@ Clone the repository and make the script executable:
 
 bash
 
-git clone https://github.com/adwaith007/auto_xss.git
+git clone https://github.com/Adwaithsheety/auto_xss.git
 cd auto_xss
 chmod +x auto_xss.sh
 
