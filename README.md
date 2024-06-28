@@ -45,8 +45,7 @@ bash
 Options
 
     -d <domain>: Specify the target domain for XSS scanning.
-    -b <blindxss_payload>: Optional. Specify a Blind XSS payload file.
-    -o <output_file>: Optional. Specify the output file for XSS scan results.
+    -dL domains.txt: Specify the domain list for Scanning.
 
 Examples
 
@@ -54,9 +53,10 @@ bash
 
 # Basic usage
 ./auto_xss.sh -d example.com
+./auto_Xss.sh -dL domains.txt
 
 # Include Blind XSS payload and specify output file
-./auto_xss.sh -d example.com -b blindxss_payload.txt -o xss_results.txt
+./auto_xss.sh -d example.com 
 
 Credits
 
