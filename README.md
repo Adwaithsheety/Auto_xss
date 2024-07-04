@@ -37,10 +37,9 @@ chmod +x auto_xss.sh
 Usage
 
 Use the script with the -d flag followed by the target domain:
+Use the script with the -dL flag followed by the list of target domain:
 
-bash
 
-./auto_xss.sh -d example.com
 
 Options
 
@@ -51,16 +50,15 @@ Options
 ./auto_xss.sh -d example.com
 ./auto_Xss.sh -dL domains.txt
 
-# Include Blind XSS payload and specify output file
-./auto_xss.sh -d example.com 
-
 Credits
 
 auto_xss leverages the capabilities of several powerful tools and frameworks. I extend our gratitude to the following developers and communities:
 
     Project Discovery for subfinder
     Project Discovery for httpx
-    Corben Leo for gau
+    Hakrawler
+    waaybackurl
+    katana
     1ndianl33t for Gf-Patterns
     TomNomNom for waybackurls and gf
     hahwul for Dalfox
@@ -70,7 +68,7 @@ Support
 
 If auto_xss helped you find XSS vulnerabilities, consider giving it a star or contributing to its development!
 
-Buy Me a Coffee
+[Buy Me a Coffee](https://buymeacoffee.com/adwaith_shetty)
 
 License
 
