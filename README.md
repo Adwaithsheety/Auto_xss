@@ -12,7 +12,7 @@ The following tools are utilized by auto_xss:
     httpx: Checks which of the discovered subdomains are live and accessible over HTTP/HTTPS.
     gau: Retrieves URLs by scraping them from Google using the provided domain.
     katana: Expands the list of endpoints by performing HTTP requests and extracting URLs.
-    uro: Removes duplicate URLs from the endpoint list.
+    Urldedupe: Removes duplicate URLs from the endpoint list.
     gf: Filters endpoints for potential XSS vulnerabilities using predefined patterns.
     Gxss: Identifies reflected parameters in URLs that could be exploited for XSS attacks.
     dalfox: Scans URLs identified with potential XSS vulnerabilities to confirm and classify them.
@@ -32,6 +32,9 @@ bash
 
 git clone https://github.com/Adwaithsheety/auto_xss.git
 cd auto_xss
+bash install_tools.sh
+"After installing all the tools then run the main file" 
+
 chmod +x auto_xss.sh
 
 Usage
