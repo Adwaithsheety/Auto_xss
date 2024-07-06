@@ -69,7 +69,7 @@ construct_mode(){
         echo "Filtered endpoints file already exists. Skipping duplicate removal."
     else
         echo -e "\nRemoving duplicates from endpoints ...."
-        cat "${domain}_endpoints.txt" | uro > "${domain}_endpoints_filtered.txt"
+        cat "${domain}_endpoints.txt" | urldedupe > "${domain}_endpoints_filtered.txt"
         printf "Filtered endpoints stored in $blue${domain}_endpoints_filtered.txt$end\n\n"
     fi
 
