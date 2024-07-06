@@ -32,10 +32,10 @@ bash
 
 git clone https://github.com/Adwaithsheety/auto_xss.git
 cd auto_xss
-bash install_tools.sh
-"After installing all the tools then run the main file" 
 
-chmod +x auto_xss.sh
+"install all the tools using insta_tools.sh" 
+
+chmod +x auto_xss.sh install_tools.sh
 
 Usage
 
@@ -50,6 +50,7 @@ Options
     -dL domains.txt: Specify the domain list for Scanning.
 
 # Basic usage
+./install_tools.sh
 ./auto_xss.sh -d example.com
 ./auto_Xss.sh -dL domains.txt
 
