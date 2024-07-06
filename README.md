@@ -33,7 +33,7 @@ bash
 git clone https://github.com/Adwaithsheety/auto_xss.git
 cd auto_xss
 
-"install all the tools using insta_tools.sh" 
+"install all the tools using instal_tools.sh" 
 
 chmod +x auto_xss.sh install_tools.sh
 
